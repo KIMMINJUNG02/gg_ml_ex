@@ -39,3 +39,17 @@ else:
 ```
 
 # git 연결하기
+- github 리모트 `gg1th_ml_ex` 레포지토리 만들기
+- git연결하기
+```
+git init
+git remote add origin "자신의 ssh url"
+git branch -M main
+git pull origin main
+```
+- git에 업로딩
+```
+git add README.md
+git commit -m "README.md 파일 업로딩"
+git push -u origin main
+```
